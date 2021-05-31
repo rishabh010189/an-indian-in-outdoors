@@ -17,7 +17,7 @@ export default function Home() {
             Adventure
           </h2>
           <Image
-            className={styles.bgImage}
+            className={styles.bgImage}       
             src="/images/bg.jpg"
             alt="cover"
             layout="fill"
