@@ -1,7 +1,9 @@
-export const future = {
-    webpack5: true,
-};
-export function webpack(config, options) {
-    config.experiments = {};
-    return config;
-}
+module.exports = {
+    future: {
+      webpack5: true,
+    },
+    webpack: function (config, options) {
+      config.experiments = {};
+      return config;
+    },
+  };
