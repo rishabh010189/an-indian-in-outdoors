@@ -1,5 +1,5 @@
 
-import Image from "next/image";
+// import Image from "next/image";
 import styles from "../styles/Home.module.scss";
 import { getFeaturedEvents } from "../dummy-data";
 import Card from '../components/events/Card';
