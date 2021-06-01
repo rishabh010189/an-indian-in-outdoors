@@ -8,14 +8,15 @@ import Button from "react-bootstrap/Button";
 function MainHeader() {
   return (
     <Navbar bg="dark" variant="dark">
-      <Navbar.Brand href="/">React-Bootstrap</Navbar.Brand>
+      <Navbar.Brand href="/" style={{'font-family': 'Rancho',
+    'font-size': '2em'}}>AnIndianInOutdoors</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
           <Nav.Link href="/">Home</Nav.Link>
           <Nav.Link href="/events">All Events</Nav.Link>
         </Nav>
-        <Form inline>
+        <Form inline className="d-none d-sm-block">
           <FormControl type="text" placeholder="Search" className="mr-sm-2" />
           <Button variant="outline-success">Search</Button>
         </Form>

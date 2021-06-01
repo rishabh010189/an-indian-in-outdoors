@@ -38,6 +38,10 @@
   }
   .bgImage{
     object-fit: cover;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    min-height: 100vh;
   }
   &::before{
     content: '';
@@ -56,7 +60,7 @@
 
 @media only screen and (max-width:1200px){
   .cover{
-    min-height: 50vh;
+    // min-height: 50vh;
     .text{
       font-size: 15vw;
     }

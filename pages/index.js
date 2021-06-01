@@ -1,5 +1,4 @@
 
-// import Image from "next/image";
 import styles from "../styles/Home.module.scss";
 import { getFeaturedEvents } from "../dummy-data";
 import Card from '../components/events/Card';
@@ -16,12 +15,11 @@ export default function Home() {
             <br />
             Adventure
           </h2>
-          {/* <Image
+          <img
             className={styles.bgImage}       
             src="images/bg.jpg"
             alt="cover"
-            layout="fill"
-          /> */}
+          />
         </section>
 
         <div className="container mt-5 pb-3">

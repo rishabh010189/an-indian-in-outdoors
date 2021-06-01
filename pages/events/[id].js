@@ -18,11 +18,11 @@ function EventDetails() {
   return (
     <div>
       <h1>This is the event details u asked for {event.title}</h1>
-      {/* <Carousel variant="dark" style={{'max-width':'600px'}}>
+      <Carousel variant="dark" style={{'max-width':'600px'}}>
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="images/rafting.jpg"
+            src="/images/rafting.jpg"
             alt="First slide"
           />
           <Carousel.Caption style={{'color':'#3e3e3e'}}>
@@ -33,7 +33,7 @@ function EventDetails() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="images/skiing.jpg"
+            src="/images/skiing.jpg"
             alt="Second slide"
           />
 
@@ -45,7 +45,7 @@ function EventDetails() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="images/trekking.jpg"
+            src="/images/trekking.jpg"
             alt="Third slide"
           />
 
@@ -56,7 +56,7 @@ function EventDetails() {
             </p>
           </Carousel.Caption>
         </Carousel.Item>
-      </Carousel> */}
+      </Carousel>
     </div>
   );
 }
