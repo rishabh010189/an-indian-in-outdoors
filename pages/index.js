@@ -16,12 +16,12 @@ export default function Home() {
             <br />
             Adventure
           </h2>
-          <Image
+          {/* <Image
             className={styles.bgImage}       
             src="images/bg.jpg"
             alt="cover"
             layout="fill"
-          />
+          /> */}
         </section>
 
         <div className="container mt-5 pb-3">

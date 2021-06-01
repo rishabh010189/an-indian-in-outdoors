@@ -18,7 +18,7 @@ function EventDetails() {
   return (
     <div>
       <h1>This is the event details u asked for {event.title}</h1>
-      <Carousel variant="dark" style={{'max-width':'600px'}}>
+      {/* <Carousel variant="dark" style={{'max-width':'600px'}}>
         <Carousel.Item>
           <img
             className="d-block w-100"
@@ -56,7 +56,7 @@ function EventDetails() {
             </p>
           </Carousel.Caption>
         </Carousel.Item>
-      </Carousel>
+      </Carousel> */}
     </div>
   );
 }
