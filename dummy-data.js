@@ -6,7 +6,8 @@ const DUMMY_EVENTS = [
         location:'Rishikesh, Uttarakhand',
         image: 'images/rafting.jpg',
         date: '2021-05-30',
-        isFeatured: true
+        isFeatured: true,
+        activityType: 'Rafting'
     },
     {
         id: 'e2',
@@ -15,7 +16,8 @@ const DUMMY_EVENTS = [
         location:'Auli, Uttarakhand',
         image: 'images/skiing.jpg',
         date: '2021-05-12',
-        isFeatured: true
+        isFeatured: true,
+        activityType: 'Skiing'
     },
     {
         id: 'e3',
@@ -24,7 +26,8 @@ const DUMMY_EVENTS = [
         location:'Kheerganga, Himachal',
         image: 'images/trekking.jpg',
         date: '2021-07-12',
-        isFeatured: true
+        isFeatured: true,
+        activityType: 'Trekking'
     }
 ]
 
@@ -44,6 +47,11 @@ export function getFeaturedEvents() {
       return eventDate.getFullYear() === year && eventDate.getMonth() === month - 1;
     });
   
+    return filteredEvents;
+  }
+
+  export function getFilteredEventsBasedOnActivity(activityType) {
+    let filteredEvents = DUMMY_EVENTS.filter(event => event.activityType === activityType);
     return filteredEvents;
   }
   
