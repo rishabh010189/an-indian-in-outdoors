@@ -18,7 +18,7 @@ export default function Home() {
           </h2>
           <Image
             className={styles.bgImage}       
-            src="/images/bg.jpg"
+            src="images/bg.jpg"
             alt="cover"
             layout="fill"
           />
