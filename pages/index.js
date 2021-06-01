@@ -12,7 +12,7 @@ export default function Home() {
       <div className={styles.window}>
         <section className={styles.cover}>
           <h2 className={styles.text}>
-            <span>Its time for a new</span>
+            <span>It's time for a new</span>
             <br />
             Adventure
           </h2>
