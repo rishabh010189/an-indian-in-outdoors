@@ -1,3 +1,6 @@
 [build]
   command = "CI= npm run build"
   publish = "out"
+  commandOrigin = "config"
+[plugins]
+  package = '@netlify/plugin-nextjs'
